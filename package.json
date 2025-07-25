@@ -305,7 +305,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild && tsx scripts/post-build.ts",
+    "build": "bun run unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
